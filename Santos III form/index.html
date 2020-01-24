@@ -1,0 +1,97 @@
+<DOCTYPE! html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Santos III Log in form</title>
+	<style>
+	.modal:hover {
+		box-shadow: 0 30px 30px 0 rgba(0,0,0,0.2);
+	}
+	input[type=text] {
+		width: 70%;
+		background-color: white;
+		outline: none;
+		padding: 8px;
+		margin: 4px;
+		border-radius: 30px;		
+		border: none;
+	}
+	input[type=password] {
+		width: 70%;
+		background-color: white;
+		outline: none;
+		padding: 8px;
+		margin: 4px;
+		border-radius: 30px;
+		border: none;
+	}
+	.login	{
+		width: 30%;
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+		border: 0;
+		border-radius: 5px;
+		font-family: arial;
+		font-weight: bolder;
+		font-size: 15px;
+		cursor: pointer;
+		margin: 11px;
+	}
+	.modal {
+		position: absolute;
+		left: 50%;
+		top: 50%; 
+		margin-left: -190px;
+		margin-top: -270px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		width: 25%;
+		border-radius: 40px;
+		border: 3px solid #d1d1d1;
+		background-color: green;
+	}
+	.signup {
+		width: 50%;
+		color: white;
+		text-decoration: none;
+		padding: 9px;
+		background-color: #34c759;
+		border: 0;
+		border-radius: 20px;
+		font-family: arial;
+		font-height: bold;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	a	{
+		text-decoration: none;
+		color: white;
+		font-family: arial;
+		font-size: 14px;
+	}
+	</style>
+</head>
+<body>
+	<center><div class="modal">
+		<div class="body">
+			<div class="content">
+				<div class="container">
+					<br><br><img src="./img/stjudelogo.png" width="40%"><br>
+					<form action="/action_page.php">
+						<p style="font-family: arial; font-size: 16px; font-weight: bold; margin-bottom: 2px;color: white;">ACADEMIC INFORMATION</p>
+						<p style="font-family: arial; font-size: 16px; font-weight: bold; margin: 0;color: white;">MANAGEMENT SYSTEM</p>
+<hr style="border: 2px solid white; width: 80%;"><br>
+						<label class="userpass">
+							<input type="text" class="text" placeholder="  Username" required><br>
+							<input type="password" placeholder="  Password" required>
+						</label>
+						<input type="submit" class="login" value="LOGIN"><a href="register.html"><input type="button" class="login" value="Register"></a><br>
+						<a href="#">Forgot password?</a><br><br>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<html>
